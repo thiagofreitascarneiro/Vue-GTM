@@ -1,32 +1,158 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div class="superinfo-bg">
+        <div class="superinfo">
+            <p>Seg / Sex - 08:00 ás 18:00</p>
+            <a href="+55219999-9999">+55 21 9999-9999</a>
+            <p>Av. Praça da Arvore, 390, São paulo - SP</p>
+        </div>
+    </div>
+
+    <header class="menu-bg">
+        <div class="menu">
+          <div class="menu-logo">
+            <a href="#">FlexBlog</a>
+          </div>
+          <nav class="menu-nav">
+            <ul>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#preco">Preço</a></li>
+              <li><a href="#qualidade">Qualidade</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <h1 class="introducao"> Novos valores e <br>Propriedades de CSS</h1>
+    
+    <section class="sobre" id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+                previsão das condições inegavelmente apropriadas objetivos.</p>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+                previsão das condições inegavelmente apropriadas objetivos.</p>
+        </div>
+       
+    </section>
+
+    <section class="produtos" id="produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-container">
+            <div class="produtos-item purple">
+                <h2>Purple</h2>
+              
+            </div>
+            <div class="produtos-item pink">
+                <h2>Pink</h2>
+              
+            </div>
+            <div class="produtos-item blue">
+                <h2>Blue</h2>
+               
+            </div>
+        </div>
+    </section>
+
+    <section class="preco" id="preco">
+        <div class="preco-item">
+            <h2>Cobre</h2>
+            <span><sup>R$</sup> 19</span>
+        <ul>
+            <li>Planos Ilimitados</li>
+            <li>Acesso Restrito</li>
+            <li>Conteúdo Secreto</li>
+            <li>Suporte 24h</li>
+          </ul>
+          <a href="#">Comprar</a>
+        </div>
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+            <ul>
+              <li>Planos Ilimitados</li>
+              <li>Acesso Restrito</li>
+              <li>Conteúdo Secreto</li>
+              <li>Suporte 24h</li>
+              <li>Compra Exclusiva</li>
+            </ul>
+            <a href="#">Comprar</a>
+          </div>
+          <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+              <li>Planos Ilimitados</li>
+              <li>Acesso Restrito</li>
+              <li>Conteúdo Secreto</li>
+              <li>Suporte 24h</li>
+              <li>Compra Exclusiva</li>
+              <li>Download dos Itens</li>
+            </ul>
+            <a href="#">Comprar</a>
+          </div>
+    </section>
+
+    <section class="qualidade" id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão</p>
+          </div>
+          <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão das condições inegavelmente</p>
+          </div>
+          <div class="qualidade-item">
+            <h2>Econômico</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão</p>
+          </div>
+          <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão</p>
+          </div>
+          <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão das condições inegavelmente</p>
+          </div>
+          <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta
+              previsão</p>
+          </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter-info">
+            <h1>Newsletter</h1>
+            <p>assine e fique por dentro das novidades.</p>
+        </div>
+        <form class="newsletter-form">
+            <input type="text" placeholder="Seu e-mail">
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
+  </body>
   </div>
 </template>
 
